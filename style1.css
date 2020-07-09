@@ -1,36 +1,41 @@
-body {background: hsl(240, 2%, 88%);}
-h1 {font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 37px;
-    text-align: center;
-    color: hsl(0, 0%, 0%);
-    position: absolute;
-    width: 403px;
-    height: 30px;
-    left: 758px;
-    top: 2062px;
-    margin: 40px;}
-p   {position: absolute;
-    width: 540px;
-    height: 67px;
-    left: 690px;
-    top: 2142px;
-    margin: 40px;
+html {
     font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
-    line-height: 26px;
+}
+.about-work {
+    background-color: hsl(240, 2%, 88%);
+    min-height: 100vh;
     text-align: center;
-    color: hsl(0, 0%, 45%);}
-iframe {position: absolute;
-    width: 1110px;
+}
+div {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.work_title {
+    color:hsl(0, 0%, 0%) ;
+    font-size: 2rem;
+    line-height: 37px;
+    font-weight: 500;
+}
+.work-description {
+    color: hsl(0, 0%, 45%);
+    font-size: 1rem;
+    margin: 50px auto;
+    max-width: 540px;
+}
+.work-video {
+    width: 100%;
     height: 600px;
-    left: 405px;
-    top: 2266px;
-    margin: 40px;}
+}
+.work-video iframe {
+    width: 100%;
+    height: 100%;
+}
 
-    
- 
