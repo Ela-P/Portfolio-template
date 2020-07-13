@@ -1,5 +1,37 @@
-header {
+.header {
+    background: hsl(220, 10%, 94%); 
+}
 
+.header_name {
+    color: hsl(213, 40%, 34%);
+    text-align: center;
+    font-family: Revalia;
+    font-size: 48px; 
+    display: inline-block;
+ }
+
+.menu { 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    display: inline-block;
+}
+
+.about_me{
+    background: hsl(0, 0%, 90%);
+   
+}
+
+.me_title {
+    color:hsl(0, 0%, 0%) ;
+    font-size: 2rem;
+    line-height: 37px;
+    font-weight: 500;
+    text-align: center;
 }
 
 html {
@@ -27,11 +59,55 @@ body {
     padding: 100px 0;
 }
 
+.mainpicture {
+    max-width: width 50px;
+    
+}
+.design-list {
+    display: inline-block;
+
+}
 .work_title {
     color:hsl(0, 0%, 0%) ;
-    font-size: 2rem;
+    font-size: 3rem;
     line-height: 37px;
     font-weight: 500;
+    text-align: center;  
+}
+.design-description {
+    color: hsl(0, 0%, 45%);
+    font-size: 1rem;
+    margin: 50px auto;
+    max-width: 540px;
+    text-align: center;
+}
+
+.reply-message {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-family: Roboto;
+    width: 225px;
+    height: 65px;
+    top: 482px;
+    color: hsl(0, 0%, 100%);
+    background: hsl(213, 40%, 34%);
+}
+
+.list-projects{
+    height: 250px;
+    left: 0px;
+    top: 1059px;
+    background: hsl(213, 40%, 34%);
+}
+
+.my-skils {
+    display: inline-block;
+}
+
+.avatar-photo {
+    display: inline-block;
 }
 
 .work-description {
@@ -39,6 +115,7 @@ body {
     font-size: 1rem;
     margin: 50px auto;
     max-width: 540px;
+    text-align: center;
 }
 
 .work-video {
@@ -51,3 +128,8 @@ body {
     height: 100%;
 }
 
+.info-contact{
+    width: 100%;
+    left: 0px;
+    background: hsl(213, 40%, 34%);
+}
