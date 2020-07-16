@@ -246,7 +246,23 @@ body {
     height: 100%;
 }
 
-.info-contact{
+.magazine {
+    width: calc(25% - 20px);
+    
+    float: left;
+}
+.magazine img {
+    width: 100%;
+    height: 100%;
+}
+
+.partners-photo {
+    margin: 0.5rem;
+    padding-bottom: 50px;
+    float: left;
+}
+
+.info-contact { 
     width: 100%;
     left: 0px;
     background: hsl(213, 40%, 34%);
