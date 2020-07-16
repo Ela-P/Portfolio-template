@@ -24,6 +24,11 @@ html {
     clear: both; 
 }
 
+.header {
+    padding: 50px 0;
+
+}
+
 header {
     background:  hsl(220, 10%, 94%);
 }
@@ -32,11 +37,12 @@ header {
     width: 96px;
     float: left;
    
- }
+}
+
  .header-picture img {
     width: 100%;
     height: 100%;
- }
+}
 
 .menu { 
     float: right;
@@ -44,7 +50,10 @@ header {
 
 .menu-list-info {
     float: left;
-    margin: 0 1.25rem;     
+    margin: 0 1.25rem;  
+    text-transform: uppercase;   
+    text-decoration: none;
+    color: rgb(0, 0, 0);
 }
 
 .menu-list-info :last-child {
@@ -56,12 +65,13 @@ header {
 }
 
 .view-main {
-    padding: 50px 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     background:  hsl(220, 10%, 94%);
 }
 
 .inform_list {
-    padding: top 50px;
+    padding-top:  50px;
 }
 
 
@@ -70,6 +80,7 @@ header {
     height: 233.7px;
     float: left;
     margin: 150 100 140;
+    margin-left: 80px;
 }
 .design-list {
     float: right;
@@ -79,15 +90,14 @@ header {
     color:hsl(0, 0%, 0%) ;
     font-size: 3rem;
     line-height: 37px;
-    font-weight: 600;
-    text-align: center;  
+    font-weight: 600;    
 }
+
 .design-description {
     color: hsl(0, 0%, 45%);
     font-size: 1rem;
     margin: 50px auto;
     max-width: 540px;
-    text-align: center;
 }
 
 .reply-message {
@@ -103,7 +113,32 @@ header {
     background: hsl(213, 40%, 34%);
 }
 
+.projects-list {
+    height: 250px;
+    left: 0px;
+    top: 1059px;
+    background: hsl(213, 40%, 34%);
+    
+}
 
+.all-projects {
+    width: calc(100% / 6 - 5px);
+    margin: right 5px;
+    display: inline-block;
+}
+
+.projects-info {
+    width: calc(100 - 50px - 20px);
+    color: hsl(0, 0%, 100%);
+    font-size: 1rem;
+    display: inline-block;
+}
+
+.svg-projects {
+    width: 50px;
+    margin: 20px;
+    display: inline-block;
+}
 
 
 
@@ -141,11 +176,6 @@ div {
 body {
     margin: 0;
 }
-
-
-
-
-
 .list-projects{
     height: 250px;
     left: 0px;
@@ -153,12 +183,49 @@ body {
     background: hsl(213, 40%, 34%);
 }
 
+
+
+.title-skils {
+    color:hsl(0, 0%, 0%) ;
+    font-size: 2rem;
+    line-height: 37px;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
 .my-skils {
-    display: inline-block;
+    background: hsl(0, 0%, 90%);
+}
+
+.skill {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    padding-bottom: 1rem;
+    color: hsl(0, 0%, 45%);
+}
+
+.list-skils {
+    width: 400px;
+    float: left;
+    margin: 50px;
+    
+}
+
+.progress {
+    height: 4px;
+    background: hsl(0, 0%, 77%);
+}
+
+.progress-inner {
+    height: 100%;
+    background: hsl(213, 40%, 34%);
+    width: 80%;
+
 }
 
 .avatar-photo {
     display: inline-block;
+   
 }
 
 .work-description {
