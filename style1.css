@@ -35,7 +35,6 @@ header {
 .header-picture {
     width: 96px;
     float: left;
-   
 }
 
 .header-picture img {
@@ -52,10 +51,12 @@ header {
     float: left;
     margin: 0 1.25rem;  
     text-transform: uppercase;   
-    text-decoration: none;
-    color: rgb(0, 0, 0);
 }
 
+.menu-list-info a {
+    color: hsl(0, 0%, 0%);
+    text-decoration: none;
+}
 .menu-list-info :last-child {
     margin: 0;     
 }
@@ -87,19 +88,11 @@ header {
     float: right;
 }
 
-.work_title {
-    color:hsl(0, 0%, 0%) ;
-    font-size: 3rem;
-    font-weight: 600;    
-    line-height: 79px;
-}
-
 .design-description {
     color: hsl(0, 0%, 45%);
     font-size: 1rem;
     margin: 50px auto;
     line-height: 26px;
-    
 }
 
 .projects-list {
@@ -130,7 +123,6 @@ header {
 
 .about_me{
     background: hsl(0, 0%, 90%);
-   
 }
 
 .me_title {
@@ -147,12 +139,6 @@ header {
     margin: 50px auto;
     max-width: 540px;
     line-height: 26px;
-    text-align: center;
-}
-
-.about-work {
-    background-color: hsl(240, 2%, 88%);
-    min-height: 100vh;
     text-align: center;
 }
 
@@ -200,7 +186,6 @@ body {
 .progress {
     height: 4px;
     background: hsl(0, 0%, 77%);
-  
 }
 
 .progress-inner {
@@ -213,6 +198,18 @@ body {
     display: inline-block;
 }
 
+.about-work {
+    background-color: hsl(240, 2%, 88%);
+    text-align: center;
+}
+
+.work_title {
+    color:hsl(0, 0%, 0%) ;
+    font-size: 3rem;
+    font-weight: 600;    
+    line-height: 79px;
+}
+
 .work-video {
     width: 100%;
     height: 600px;
@@ -221,6 +218,10 @@ body {
 .work-video iframe {
     width: 100%;
     height: 100%;
+}
+
+.magazine-scick {
+    max-width: 1920px;
 }
 
 .magazine {
@@ -241,9 +242,18 @@ body {
 }
 
 .form-text {
+    display: block;
+    max-width: 540px;
     margin: 0 auto;
 }
 
+.group-input {
+    margin: 20px auto;
+    padding: 20px;
+    font-size: 14px;
+    line-height: 23px;
+    color: hsl(0, 1%, 37%);
+}
 
 .view-input {
     padding: 18px 20px;
@@ -253,9 +263,10 @@ body {
     max-width: 540px;
     padding: 18px 20px;
     height: 175px;
+    font-size: 14px;
+    line-height: 23px;  
+    color: hsl(0, 1%, 37%);
 }
-
-
 
 .click-message {
     max-width: 190px;
@@ -277,31 +288,28 @@ body {
     background: hsl(213, 40%, 34%);
 }
 
-
-
-.info-contact {}
-
 .info-contact { 
     width: 100%;
     left: 0px;
     background: hsl(213, 40%, 34%);
 }
+
 .name-contact {
     font-size: 1.3rem;
     font-weight: 600;
     line-height: 25px;
     color: hsl(0, 0%, 100%); 
-    float: left;
+   
 }
-
 
 .license {
     font-size: 0.8rem;
     line-height: 21px;
     color: hsl(0, 0%, 100%);
+    float: left;
 
 }
 
 .vk-picture {
-    
+    float: right;
 }
