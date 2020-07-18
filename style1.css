@@ -26,7 +26,6 @@ html {
 
 .header {
     padding: 50px 0;
-
 }
 
 header {
@@ -39,7 +38,7 @@ header {
    
 }
 
- .header-picture img {
+.header-picture img {
     width: 100%;
     height: 100%;
 }
@@ -72,7 +71,7 @@ header {
 }
 
 .inform_list {
-    padding-top:  50px;
+    padding-top: 50px;
 }
 
 .main-picture {
@@ -82,6 +81,7 @@ header {
     margin: 50px auto;
     margin-left: 80px;
 }
+
 .design-list {
     max-width: 540px;
     float: right;
@@ -102,9 +102,6 @@ header {
     
 }
 
-
-}
-
 .projects-list {
     left: 0px;
     top: 1059px;
@@ -114,25 +111,23 @@ header {
 .all-projects {
     width: calc(100% / 6 - 5px);
     margin: right 5px;
-    float: left;
-    
+    float: left;  
 }
 
 .svg-projects {
     width: 50px;
     margin: 0 10px;
     float: left;
-    
-    
 }
+
 .projects-info {
     width: calc(100% - 50px - 20px);
     color: hsl(0, 0%, 100%);
     font-size: 1rem;
     line-height: 26px;
     float: left;
-    
 }
+
 .about_me{
     background: hsl(0, 0%, 90%);
    
@@ -168,6 +163,7 @@ div {
 body {
     margin: 0;
 }
+
 .list-projects{
     height: 250px;
     left: 0px;
@@ -244,10 +240,27 @@ body {
     float: left;
 }
 
-.info-contact { 
-    width: 100%;
-    left: 0px;
-    background: hsl(213, 40%, 34%);
+.form-text {
+    margin: 0 auto;
+}
+
+
+.view-input {
+    padding: 18px 20px;
+}
+
+.textarea {
+    max-width: 540px;
+    padding: 18px 20px;
+    height: 175px;
+}
+
+
+
+.click-message {
+    max-width: 190px;
+    display: block;
+    margin: 0 auto;
 }
 
 .reply-message {
@@ -260,4 +273,35 @@ body {
     height: 65px;
     top: 482px;
     color: hsl(0, 0%, 100%);
+    margin: 0 auto;
     background: hsl(213, 40%, 34%);
+}
+
+
+
+.info-contact {}
+
+.info-contact { 
+    width: 100%;
+    left: 0px;
+    background: hsl(213, 40%, 34%);
+}
+.name-contact {
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 25px;
+    color: hsl(0, 0%, 100%); 
+    float: left;
+}
+
+
+.license {
+    font-size: 0.8rem;
+    line-height: 21px;
+    color: hsl(0, 0%, 100%);
+
+}
+
+.vk-picture {
+    
+}
