@@ -25,7 +25,7 @@ html {
 }
 
 .header {
-    padding: 50px 0;
+    padding: 3.12rem 0;
 }
 
 header {
@@ -43,7 +43,7 @@ header {
 }
 
 .menu { 
-    line-height: 26px;
+    line-height: 1.62rem;
     float: right;
 }
 
@@ -66,21 +66,21 @@ header {
 }
 
 .view-main {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 3.12rem;
+    padding-bottom: 3.12rem;
     background:  hsl(220, 10%, 94%);
 }
 
 .inform_list {
-    padding-top: 50px;
+    padding-top: 3.12rem;
 }
 
 .main-picture {
     width: 357px;
     height: 233.7px;
     float: left;
-    margin: 50px auto;
-    margin-left: 80px;
+    margin: 3.12rem auto;
+    margin-left: 5rem;
 }
 
 .design-list {
@@ -91,33 +91,31 @@ header {
 .design-description {
     color: hsl(0, 0%, 45%);
     font-size: 1rem;
-    margin: 50px auto;
-    line-height: 26px;
+    margin: 3.12rem auto;
+    line-height: 1.62rem;
 }
 
-.projects-list {
-    left: 0px;
-    top: 1059px;
+.list-projects {
     background: hsl(213, 40%, 34%);  
 }
 
 .all-projects {
     width: calc(100% / 6 - 5px);
-    margin-right: 5px;
+    margin-right: 0.3rem;
     float: left;  
 }
 
 .svg-projects {
     width: 50px;
-    margin: 0 10px;
+    margin: 0 0.6rem;
     float: left;
 }
 
 .projects-info {
-    width: calc(100% - 50px - 20px);
+    width: calc(100% - 3.12rem - 1.25rem);
     color: hsl(0, 0%, 100%);
     font-size: 1rem;
-    line-height: 26px;
+    line-height: 1.62rem;
     float: left;
 }
 
@@ -128,7 +126,7 @@ header {
 .me_title {
     color:hsl(0, 0%, 0%) ;
     font-size: 2rem;
-    line-height: 37px;
+    line-height: 2.31rem;
     font-weight: 600;
     text-align: center;
 }
@@ -136,9 +134,9 @@ header {
 .work-description {
     color: hsl(0, 0%, 45%);
     font-size: 1rem;
-    margin: 50px auto;
+    margin: 3.12rem auto;
     max-width: 540px;
-    line-height: 26px;
+    line-height: 1.62rem;
     text-align: center;
 }
 
@@ -177,7 +175,7 @@ body {
 .list-skils {
     width: 400px;
     float: left;
-    margin: 50px; 
+    margin: 3.1rem; 
 }
 
 .progress {
@@ -204,7 +202,7 @@ body {
     color:hsl(0, 0%, 0%) ;
     font-size: 3rem;
     font-weight: 600;    
-    line-height: 79px;
+    line-height: 5rem;
 }
 
 .work-video {
@@ -234,7 +232,7 @@ body {
 
 .partners-photo {
     margin: 0.5rem;
-    padding-bottom: 50px;
+    padding-bottom: 3.12rem;
     float: left;
 }
 
@@ -245,26 +243,26 @@ body {
 }
 
 .group-input {
-    margin: 20px auto;
+    margin: 1.25rem auto;
 }
 
 .view-input {
-    width: calc(50% - 2px);
-    padding: 18px 20px;
-    font-size: 14px;
-    line-height: 23px;
-    margin-bottom: 20px;
+    width: calc(50% - 0.2rem);
+    padding: 1.12rem 1.25rem;
+    font-size: 1.14rem;
+    line-height: 1.43rem;
+    margin-bottom: 1.25rem;
     color: hsl(0, 1%, 37%);
 }
 
 .view-message {
     width: 540px;
-    height: 175px;;
-    padding: 18px 20px;
-    font-size: 14px;
-    line-height: 23px;  
+    height: 175px;
+    padding: 1.12rem 1.25rem;
+    font-size: 1.14rem;
+    line-height: 1.43rem;  
     color: hsl(0, 1%, 37%);
-    margin-bottom: 50px;
+    margin-bottom: 3.12rem;
 }
 
 .click-message {
@@ -274,8 +272,8 @@ body {
 }
 
 .reply-message {
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 1rem;
+    line-height: 1.62rem;
     text-align: center;
     letter-spacing: 0.1em;
     font-family: Roboto;
@@ -295,26 +293,26 @@ body {
 
 .author-info {
     float: left;
-    padding-top: 50px;
+    padding-top: 3.12rem;
 }
 
 .author-name {
     font-size: 1.3rem;
     font-weight: 600;
-    line-height: 25px;
+    line-height: 1.6rem;
     color: hsl(0, 0%, 100%); 
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .author-license {
     font-size: 0.8rem;
-    line-height: 21px;
+    line-height: 1.3rem;
     color: hsl(0, 0%, 100%);
     float: left;
 }
 
 .social-link {
     float: right;
-    padding-top: 50px;
-    padding-right: 20px;
+    padding-top: 3.12rem;
+    padding-right: 1.25rem;
 }
