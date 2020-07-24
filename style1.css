@@ -103,7 +103,7 @@ header {
 
 .all-projects {
     width: calc(100% / 6 - 5px);
-    margin: right 5px;
+    margin-right: 5px;
     float: left;  
 }
 
@@ -151,9 +151,6 @@ body {
 }
 
 .list-projects{
-    height: 250px;
-    left: 0px;
-    top: 1059px;
     background: hsl(213, 40%, 34%);
 }
 
@@ -249,23 +246,25 @@ body {
 
 .group-input {
     margin: 20px auto;
-    padding: 20px;
-    font-size: 14px;
-    line-height: 23px;
-    color: hsl(0, 1%, 37%);
 }
 
 .view-input {
+    width: calc(50% - 2px);
     padding: 18px 20px;
+    font-size: 14px;
+    line-height: 23px;
+    margin-bottom: 20px;
+    color: hsl(0, 1%, 37%);
 }
 
-.textarea {
-    max-width: 540px;
+.view-message {
+    width: 540px;
+    height: 175px;;
     padding: 18px 20px;
-    height: 175px;
     font-size: 14px;
     line-height: 23px;  
     color: hsl(0, 1%, 37%);
+    margin-bottom: 50px;
 }
 
 .click-message {
@@ -288,28 +287,34 @@ body {
     background: hsl(213, 40%, 34%);
 }
 
-.info-contact { 
+.footer-content { 
     width: 100%;
     left: 0px;
     background: hsl(213, 40%, 34%);
 }
 
-.name-contact {
+.author-info {
+    float: left;
+    padding-top: 50px;
+}
+
+.author-name {
     font-size: 1.3rem;
     font-weight: 600;
     line-height: 25px;
     color: hsl(0, 0%, 100%); 
-   
+    margin-bottom: 20px;
 }
 
-.license {
+.author-license {
     font-size: 0.8rem;
     line-height: 21px;
     color: hsl(0, 0%, 100%);
     float: left;
-
 }
 
-.vk-picture {
+.social-link {
     float: right;
+    padding-top: 50px;
+    padding-right: 20px;
 }
