@@ -1,11 +1,142 @@
 html {
     font-family: Roboto;
     font-size: 16px;
+    box-sizing: border-box;
 }
 
-.about-work {
-    background-color: hsl(240, 2%, 88%);
-    min-height: 100vh;
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.container.clin-rpadding {
+    padding: 0;
+}
+
+.clearfix::after { 
+    content: "";
+    display: block;
+    clear: both; 
+}
+
+.header {
+    padding: 3.12rem 0;
+}
+
+header {
+    background:  hsl(220, 10%, 94%);
+}
+
+.header-picture {
+    width: 96px;
+    float: left;
+}
+
+.header-picture img {
+    width: 100%;
+    height: 100%;
+}
+
+.menu { 
+    line-height: 1.62rem;
+    float: right;
+}
+
+.menu-list-info {
+    float: left;
+    margin: 0 1.25rem;  
+    text-transform: uppercase;   
+}
+
+.menu-list-info a {
+    color: hsl(0, 0%, 0%);
+    text-decoration: none;
+}
+.menu-list-info :last-child {
+    margin: 0;     
+}
+
+.menu li {
+    display: inline;
+}
+
+.view-main {
+    padding-top: 3.12rem;
+    padding-bottom: 3.12rem;
+    background:  hsl(220, 10%, 94%);
+}
+
+.inform_list {
+    padding-top: 3.12rem;
+}
+
+.main-picture {
+    width: 357px;
+    height: 233.7px;
+    float: left;
+    margin: 3.12rem auto;
+    margin-left: 5rem;
+}
+
+.design-list {
+    max-width: 540px;
+    float: right;
+}
+
+.design-description {
+    color: hsl(0, 0%, 45%);
+    font-size: 1rem;
+    margin: 3.12rem auto;
+    line-height: 1.62rem;
+}
+
+.list-projects {
+    background: hsl(213, 40%, 34%);  
+}
+
+.all-projects {
+    width: calc(100% / 6 - 5px);
+    margin-right: 0.3rem;
+    float: left;  
+}
+
+.svg-projects {
+    width: 50px;
+    margin: 0 0.6rem;
+    float: left;
+}
+
+.projects-info {
+    width: calc(100% - 3.12rem - 1.25rem);
+    color: hsl(0, 0%, 100%);
+    font-size: 1rem;
+    line-height: 1.62rem;
+    float: left;
+}
+
+.about_me{
+    background: hsl(0, 0%, 90%);
+}
+
+.me_title {
+    color:hsl(0, 0%, 0%) ;
+    font-size: 2rem;
+    line-height: 2.31rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.work-description {
+    color: hsl(0, 0%, 45%);
+    font-size: 1rem;
+    margin: 3.12rem auto;
+    max-width: 540px;
+    line-height: 1.62rem;
     text-align: center;
 }
 
@@ -17,24 +148,61 @@ body {
     margin: 0;
 }
 
-.container {
-    max-width: 1120px;
-    margin: 0 auto;
-    padding: 100px 0;
+.list-projects{
+    background: hsl(213, 40%, 34%);
+}
+
+.title-skils {
+    color:hsl(0, 0%, 0%) ;
+    font-size: 3rem;
+    line-height: 37px;
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+
+.my-skils {
+   background: hsl(0, 0%, 90%);
+}
+
+.skill {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: hsl(0, 0%, 45%);
+}
+
+.list-skils {
+    width: 400px;
+    float: left;
+    margin: 3.1rem; 
+}
+
+.progress {
+    height: 4px;
+    background: hsl(0, 0%, 77%);
+}
+
+.progress-inner {
+    height: 100%;
+    background: hsl(213, 40%, 34%);
+    width: 80%;
+}
+
+.avatar-photo {
+    display: inline-block;
+}
+
+.about-work {
+    background-color: hsl(240, 2%, 88%);
+    text-align: center;
 }
 
 .work_title {
     color:hsl(0, 0%, 0%) ;
-    font-size: 2rem;
-    line-height: 37px;
-    font-weight: 500;
-}
-
-.work-description {
-    color: hsl(0, 0%, 45%);
-    font-size: 1rem;
-    margin: 50px auto;
-    max-width: 540px;
+    font-size: 3rem;
+    font-weight: 600;    
+    line-height: 5rem;
 }
 
 .work-video {
@@ -47,3 +215,104 @@ body {
     height: 100%;
 }
 
+.magazine-scick {
+    max-width: 1920px;
+}
+
+.magazine {
+    width: 25% ;
+    float: left;
+}
+
+.magazine img {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.partners-photo {
+    margin: 0.5rem;
+    padding-bottom: 3.12rem;
+    float: left;
+}
+
+.form-text {
+    display: block;
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+.group-input {
+    margin: 1.25rem auto;
+}
+
+.view-input {
+    width: calc(50% - 0.2rem);
+    padding: 1.12rem 1.25rem;
+    font-size: 1.14rem;
+    line-height: 1.43rem;
+    margin-bottom: 1.25rem;
+    color: hsl(0, 1%, 37%);
+}
+
+.view-message {
+    width: 540px;
+    height: 175px;
+    padding: 1.12rem 1.25rem;
+    font-size: 1.14rem;
+    line-height: 1.43rem;  
+    color: hsl(0, 1%, 37%);
+    margin-bottom: 3.12rem;
+}
+
+.click-message {
+    max-width: 190px;
+    display: block;
+    margin: 0 auto;
+}
+
+.reply-message {
+    font-size: 1rem;
+    line-height: 1.62rem;
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-family: Roboto;
+    width: 225px;
+    height: 65px;
+    top: 482px;
+    color: hsl(0, 0%, 100%);
+    margin: 0 auto;
+    background: hsl(213, 40%, 34%);
+}
+
+.footer-content { 
+    width: 100%;
+    left: 0px;
+    background: hsl(213, 40%, 34%);
+}
+
+.author-info {
+    float: left;
+    padding-top: 3.12rem;
+}
+
+.author-name {
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 1.6rem;
+    color: hsl(0, 0%, 100%); 
+    margin-bottom: 1.25rem;
+}
+
+.author-license {
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+    color: hsl(0, 0%, 100%);
+    float: left;
+}
+
+.social-link {
+    float: right;
+    padding-top: 3.12rem;
+    padding-right: 1.25rem;
+}
